@@ -91,3 +91,12 @@ console.log(typeof age);
 let l = 10;
 let o = "5";
 console.log(l+o);
+
+let saidul = "jnnat love \'akhi\'"
+console.log( saidul);
+
+let age3 = 20;
+let nam = "jannat"
+let age4 = 19;
+let calculation = nam + age3 + age4 + firstName + age3
+console.log(calculation);
