@@ -6,7 +6,7 @@ let J = jannat-akhi;
 console.log(J);
 
 //moduleser kaj? ba (%) kaj?
-let userinput = prompt('Enter the number');
+/*let userinput = prompt('Enter the number');
 let number = parseInt(userinput);
 
 if(number % 2 === 0)
@@ -14,7 +14,7 @@ console.log(`${number} is even number`);
 
 else{
     console.log(`${number} is odd number`);
-}
+}*/
 
 //increment
 let x = 10;
@@ -100,3 +100,112 @@ let nam = "jannat"
 let age4 = 19;
 let calculation = nam + age3 + age4 + firstName + age3
 console.log(calculation);
+
+//operator pacidant
+//-----(){}[]
+// / * - +
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Operator_precedence
+
+console.log(5+6-3/2*4);
+
+/*
+5 + 6 - 3 / 2 * 4
+= 5 + 6 - 1.5 * 4
+= 5 + 6 - 6
+= 5
+*/
+
+//java script function
+function myfunction(fullName , age = 30) {
+    console.log('  congratulation  ' + fullName +' your '+ age+' years ');
+}
+myfunction('jannat', 19);
+myfunction('akimul' , 18);
+
+
+
+
+
+
+
+function isSubscrib(){
+    console.log('Subscrib');
+}
+document.getElementById('btn').addEventListener
+('click', isSubscrib);
+
+
+
+
+
+
+(function (massege) {
+    console.log('i am self invokeing functoin', massege);
+})('hello jannat');
+
+
+
+
+
+let maths = function(x,y) {
+    return x * y;
+    console.log('jannat');//not suported
+};
+console.log(maths(3, 3));
+
+
+
+
+
+
+function newfunc(){
+    let firstName = 'jannat';
+    console.log(firstName);
+}
+newfunc();
+
+
+
+
+
+
+
+function newfunc(){
+    let firstName = 'jannat';
+    console.log(firstName);
+}
+newfunc();
+
+
+
+
+
+
+//function nilam use korlam baddilam
+let number = [2,4,5,6,5];
+let sqNumber = number.map(function(number) {
+    return number * number;
+});
+console.log(sqNumber);
+
+
+
+
+
+
+
+let add = function  (s,t){
+    return s+t;
+}
+console.log(add(3,4));
+
+
+
+
+function great(firstName){
+    function sayhello(){
+        alert(firstName +' your limit is max ')
+    }
+    return sayhello();
+}
+great('jannat');

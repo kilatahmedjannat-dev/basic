@@ -30,5 +30,15 @@ let nam = 'jannat';
 console.log(`congratulation ${nam}`);
 
 //
+
+
+function wellCome(fullName){
+    console.log(' congratulation ' + fullName);
+}
+wellCome('jannat');
+
+
+
+//
 const i = 'jannat';
 console.log(i); 
